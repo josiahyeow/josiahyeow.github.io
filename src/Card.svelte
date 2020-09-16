@@ -24,6 +24,11 @@
   .app-image {
     width: 100%;
   }
+  @media (max-width: 600px) {
+    .app-card {
+      width: auto;
+    }
+  }
 </style>
 <div class="app-card shadow">
   <a href="{url}" target="_blank">

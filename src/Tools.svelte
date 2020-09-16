@@ -10,6 +10,11 @@
     margin-top: 0;
     margin-bottom: 2em;
   }
+  @media (max-width: 600px) {
+    .tools {
+      padding: 4em 2em;
+    }
+  }
 </style>
 <div class="tools">
   <h1>Some things I've worked with</h1>

@@ -49,6 +49,11 @@
     grid-gap: 4em;
     grid-template-columns: repeat(auto-fill, minmax(12em, 1fr));
   }
+  @media (max-width: 600px) {
+    .showcase {
+      padding: 4em 2em;
+    }
+  }
 </style>
 <div class="showcase">
   <h1>Some things I've created</h1>

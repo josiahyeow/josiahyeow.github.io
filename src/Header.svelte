@@ -30,6 +30,11 @@
   .logo {
     font-family: Gilroy;
   }
+  @media (max-width: 600px) {
+    header {
+      padding: 1em 2em;
+    }
+  }
 </style>
 <header>
   <nav>

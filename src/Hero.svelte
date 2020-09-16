@@ -21,6 +21,11 @@
     height: 5em;
     background-color: #fd6065;
   }
+  @media (max-width: 600px) {
+    .hero {
+      padding: 1em 2em;
+    }
+  }
 </style>
 <div class="hero">
   <div class="hero-content">
