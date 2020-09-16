@@ -1,5 +1,4 @@
 <script>
-	export let name;
 	import Header from './Header.svelte'
 	import Hero from './Hero.svelte'
 	import Showcase from './Showcase.svelte'
