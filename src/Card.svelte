@@ -1,6 +1,6 @@
 <script>
   export let icon;
-  export let name;
+  export let title;
   export let description;
   export let url;
 </script>
@@ -33,7 +33,7 @@
 <div class="app-card shadow">
   <a href="{url}" target="_blank">
     <img class="app-image" src="{icon}" alt="" />
-    <h2>{name}</h2>
+    <h2>{title}</h2>
     <p>{description}</p>
   </a>
 </div>

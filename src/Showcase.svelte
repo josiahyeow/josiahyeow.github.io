@@ -3,31 +3,31 @@
   let apps = [
     {
       icon: '/img/mojiparty.png',
-      name: 'Mojiparty',
+      title: 'Mojiparty',
       description: 'An online multiplayer game where you compete against your friends to guess what emojis mean',
       url: 'https://mojiparty.herokuapp.com/'
     },
     {
       icon: '/img/simple-chat-app.png',
-      name: 'Simple Chat App',
+      title: 'Simple Chat App',
       description: 'Native javascript chat room application using socket.io',
       url: 'https://simple-chat-app-000.herokuapp.com/'
     },
     {
       icon: '/img/covid-19-dashboard.png',
-      name: 'COVID-19 Dashboard',
+      title: 'COVID-19 Dashboard',
       description: 'Dashboard which shows COVID-19 case data using React',
       url: 'https://josiahyeow.github.io/covid-19-dashboard/'
     },
     {
       icon: '/img/pocketlint.png',
-      name: 'PocketLint',
+      title: 'PocketLint',
       description: 'iOS app for capturing quick photo notes with text recognition written in Swift',
       url: 'https://github.com/josiahyeow/PocketLint'
     },
     {
       icon: '/img/flush.png',
-      name: 'Flush',
+      title: 'Flush',
       description: 'Gamified task tracking and scheduling app written in React Native',
       url: 'https://devpost.com/software/flush-d69mqj'
     }
@@ -59,7 +59,7 @@
   <h1>Some things I've created</h1>
   <div class="apps">
     {#each apps as app}
-    <Card icon={app.icon} name={app.name} description={app.description} url={app.url}/>
+    <Card icon={app.icon} title={app.title} description={app.description} url={app.url}/>
     {/each}
   </div>
 </div>
