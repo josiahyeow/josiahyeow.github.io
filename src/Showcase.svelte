@@ -2,24 +2,34 @@
   import Card from './Card.svelte'
   let apps = [
     {
+      icon: '/img/mojiparty.png',
+      name: 'Mojiparty',
+      description: 'An online multiplayer game where you compete with your friends to guess what emojis mean',
+      url: 'https://mojiparty.herokuapp.com/'
+    },
+    {
       icon: '/img/simple-chat-app.png',
       name: 'Simple Chat App',
-      description: 'Native javascript chat room application using socket.io'
+      description: 'Native javascript chat room application using socket.io',
+      url: 'https://simple-chat-app-000.herokuapp.com/'
     },
     {
       icon: '/img/covid-19-dashboard.png',
       name: 'COVID-19 Dashboard',
-      description: 'Dashboard which shows COVID-19 case data using React'
+      description: 'Dashboard which shows COVID-19 case data using React',
+      url: 'https://josiahyeow.github.io/covid-19-dashboard/'
     },
     {
       icon: '/img/pocketlint.png',
       name: 'PocketLint',
-      description: 'iOS app for capturing quick photo notes with text recognition written in Swift'
+      description: 'iOS app for capturing quick photo notes with text recognition written in Swift',
+      url: 'https://github.com/josiahyeow/PocketLint'
     },
     {
       icon: '/img/flush.png',
       name: 'Flush',
-      description: 'Gamified task tracking and scheduling app written in React Native'
+      description: 'Gamified task tracking and scheduling app written in React Native',
+      url: 'https://devpost.com/software/flush-d69mqj'
     }
   ]
 </script>
@@ -44,7 +54,7 @@
   <h1>Some things I've created</h1>
   <div class="apps">
     {#each apps as app}
-    <Card icon={app.icon} name={app.name} description={app.description}/>
+    <Card icon={app.icon} name={app.name} description={app.description} url={app.url}/>
     {/each}
   </div>
 </div>
