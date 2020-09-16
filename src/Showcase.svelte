@@ -4,7 +4,7 @@
     {
       icon: '/img/mojiparty.png',
       name: 'Mojiparty',
-      description: 'An online multiplayer game where you compete with your friends to guess what emojis mean',
+      description: 'An online multiplayer game where you compete against your friends to guess what emojis mean',
       url: 'https://mojiparty.herokuapp.com/'
     },
     {
