@@ -8,7 +8,7 @@
     "predeploy": "yarn build",
     "deploy": "git subtree push --prefix public origin gh-pages",
     "push": "git push",
-    "postpush": "deploy"
+    "postpush": "yarn deploy"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^14.0.0",
