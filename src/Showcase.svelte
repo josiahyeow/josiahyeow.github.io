@@ -38,6 +38,7 @@
   .showcase {
     background-color: #fd6065;
     padding: 4em;
+    border-radius: 1em;
   }
   h1 {
     color: #fff;

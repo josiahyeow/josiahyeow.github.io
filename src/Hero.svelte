@@ -10,7 +10,7 @@
     flex-direction: column;
     justify-content: flex-end;
     margin-top: auto;
-    height: 75vh;
+    height: calc(100vh - 18em);
     padding: 2em 4em;
   }
   .hero-content {
@@ -20,6 +20,7 @@
     width: 5em;
     height: 5em;
     background-color: #fd6065;
+    border-radius: 1em;
   }
   @media (max-width: 600px) {
     .hero {

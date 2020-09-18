@@ -11,8 +11,9 @@
   }
   .app-card {
     background-color: #fff;
-    width: 12em;
+    width: 13em;
     padding: 1em;
+    border-radius: 1em;
     -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
     transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
   }
@@ -21,8 +22,18 @@
     -webkit-transform: scale(1.02, 1.02);
     transform: scale(1.02, 1.02);
   }
+  .header {
+    display: flex;
+    align-items: center;
+  }
+  h3 {
+    margin-top: 0;
+  }
   .app-image {
-    width: 100%;
+    border-radius: 1em;
+    width: 40%;
+    height: 40%;
+    margin-right: 1em;
   }
   @media (max-width: 600px) {
     .app-card {
@@ -32,8 +43,10 @@
 </style>
 <div class="app-card shadow">
   <a href="{url}" target="_blank">
-    <img class="app-image" src="{icon}" alt="" />
-    <h2>{title}</h2>
+    <div class="header">
+      <img class="app-image" src="{icon}" alt="" />
+      <h3>{title}</h3>
+    </div>
     <p>{description}</p>
   </a>
 </div>
