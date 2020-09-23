@@ -37,7 +37,7 @@
 <style>
   .showcase {
     background-color: #fd6065;
-    padding: 4em;
+    padding: 4em clamp(2em, 4vw, 4em);
     border-radius: 1em;
   }
   h1 {
@@ -49,11 +49,6 @@
     display: grid;
     grid-gap: 4em;
     grid-template-columns: repeat(auto-fill, minmax(12em, 1fr));
-  }
-  @media (max-width: 600px) {
-    .showcase {
-      padding: 4em 2em;
-    }
   }
 </style>
 <div class="showcase">

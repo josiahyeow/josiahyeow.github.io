@@ -11,7 +11,7 @@
     justify-content: flex-end;
     margin-top: auto;
     height: calc(100vh - 18em);
-    padding: 2em 4em;
+    padding: clamp(1em, 2vh, 2em) clamp(2em, 4vw, 4em);
   }
   .hero-content {
     margin-bottom: 5em;
@@ -21,11 +21,6 @@
     height: 5em;
     background-color: #fd6065;
     border-radius: 1em;
-  }
-  @media (max-width: 600px) {
-    .hero {
-      padding: 1em 2em;
-    }
   }
 </style>
 <div class="hero">

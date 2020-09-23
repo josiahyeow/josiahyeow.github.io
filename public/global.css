@@ -34,4 +34,9 @@ body {
 
 h1 {
   font-family: Gilroy;
+  font-size: clamp(1.5em, 3vw, 2em);
+}
+
+h2 {
+  font-size: clamp(1em, 2vw, 1.5em);
 }

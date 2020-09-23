@@ -4,12 +4,8 @@
 
 <style>
   footer {
-    padding: 2em 4em;
-  }
-  @media (max-width: 600px) {
-    footer {
-      padding: 4em 2em;
-    }
+    padding: 4em clamp(2em, 4vw, 4em);
+    background: #f5f5f7;
   }
 </style>
 <footer>Created with 💻 in <strong>melbourne, au</strong> using Svelte</footer>

@@ -22,16 +22,11 @@
 
 <style>
   .tools {
-    padding: 4em;
+    padding: 4em clamp(2em, 4vw, 4em);
   }
   h1 {
     margin-top: 0;
     margin-bottom: 2em;
-  }
-  @media (max-width: 600px) {
-    .tools {
-      padding: 4em 2em;
-    }
   }
   li {
     display: flex;

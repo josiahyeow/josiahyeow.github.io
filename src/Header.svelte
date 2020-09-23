@@ -1,6 +1,6 @@
 <style>
   header {
-    padding: 2em 4em;
+    padding: clamp(1em, 2vh, 2em) clamp(2em, 4vw, 4em);
   }
   nav {
     display: flex;
@@ -29,11 +29,6 @@
   }
   .logo {
     font-family: Gilroy;
-  }
-  @media (max-width: 600px) {
-    header {
-      padding: 1em 2em;
-    }
   }
 </style>
 <header>
