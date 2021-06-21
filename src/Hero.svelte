@@ -28,8 +28,7 @@
     <div class="square"></div>
     <h1>Full Stack Developer // Software Engineer</h1>
     <h2>
-      👋 Hi, I'm Josiah. I design and build web apps that are visually pleasing
-      and easy to use.
+      👋 Hi, I'm Josiah. I design and build web apps that are both easy on the eyes and to use.
     </h2>
   </div>
 </div>
