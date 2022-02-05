@@ -1,5 +1,5 @@
 <script>
-  import Card from './Card.svelte'
+  import Card from './Card.svelte';
   let apps = [
     {
       icon: '/img/mojiparty.png',
@@ -38,6 +38,9 @@
   .showcase {
     background-color: #fd6065;
     padding: 4em clamp(2em, 4vw, 4em);
+    max-width: 1280px;
+    margin: auto;
+    border-radius: 2rem;
   }
   h1 {
     color: #fff;
@@ -47,7 +50,7 @@
   .apps {
     display: grid;
     grid-gap: 4em;
-    grid-template-columns: repeat(auto-fill, minmax(12em, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(13em, 1fr));
   }
 </style>
 <div class="showcase">

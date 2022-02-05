@@ -23,6 +23,8 @@
 <style>
   .tools {
     padding: 4em clamp(2em, 4vw, 4em);
+    max-width: 1280px;
+    margin: auto;
   }
   h1 {
     margin-top: 0;

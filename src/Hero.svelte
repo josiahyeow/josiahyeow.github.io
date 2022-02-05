@@ -12,6 +12,8 @@
     margin-top: auto;
     height: calc(100vh - 18em);
     padding: clamp(1em, 2vh, 2em) clamp(2em, 4vw, 4em);
+    max-width: 1280px;
+    margin: auto;
   }
   .hero-content {
     margin-bottom: 5em;
@@ -26,9 +28,10 @@
 <div class="hero">
   <div class="hero-content">
     <div class="square"></div>
-    <h1>Full Stack Developer // Software Engineer</h1>
+    <h1>Software Engineer</h1>
     <h2>
-      👋 Hi, I'm Josiah. I design and build web apps that are both easy on the eyes and to use.
+      👋 Hi, I'm Josiah. I design and build web apps.
     </h2>
+    <p>What's a <i>web</i> app? - It's like the apps on your phone, just in your web browser.</p>
   </div>
 </div>

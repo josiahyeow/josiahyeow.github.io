@@ -14,13 +14,12 @@
     width: 13em;
     padding: 1em;
     border-radius: 1em;
-    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transform: scale(1);
   }
   .app-card:hover {
     box-shadow: 0px 4px 64px -32px rgba(138, 54, 56, 1);
-    -webkit-transform: scale(1.02, 1.02);
-    transform: scale(1.02, 1.02);
+    transform: scale(1.05);
   }
   .header {
     display: flex;
